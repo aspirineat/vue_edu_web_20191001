@@ -1,6 +1,8 @@
 <template>
 <div>
 	<h4>v-bind:key Index</h4>
+	<div><button v-on:click="initData()">값 초기화</button></div>
+	<br/>
 	<div><button v-on:click="callWatch()">Call Watch</button></div>
 	<br/>
 	<div><button v-on:click="chgComputed1()">chg computed1</button> {{testComputed()}} </div>
@@ -33,6 +35,12 @@ export default {
 		},
 	},
 	methods: {
+		initData() {
+			this.testWatch = '';
+			this.testComputed1 = '';
+			this.testComputed2 = '';
+			this.target = '';
+		},
 		callWatch() {
 			this.testWatch = 'chg'
 		},
