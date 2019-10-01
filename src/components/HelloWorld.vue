@@ -16,6 +16,9 @@
 		<li>
 			<router-link to="/step3/emit">Parent Event 호출</router-link>
 		</li>
+		<li>
+			<router-link to="/step3/slot">VUE-Slot</router-link>
+		</li>
     </ul>
 	<h3>Step4: Store</h3>
     <ul>

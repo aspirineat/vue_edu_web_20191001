@@ -6,6 +6,7 @@ import step1 from '@/components/step1/step1'
 import step3 from '@/components/step3/step3'
 import step3_props from '@/components/step3/props/parent'
 import step3_emit from '@/components/step3/emit/parent'
+import step3_slot from '@/components/step3/slot/parent'
 import step4 from '@/components/step4/step4'
 import step4_store from '@/components/step4/callStore'
 import step5 from '@/components/step5/step5'
@@ -49,6 +50,11 @@ export default new Router({
 			path: 'emit',
 			components: {
 				example: step3_emit,
+			},
+		}, {
+			path: 'slot',
+			components: {
+				example: step3_slot,
 			},
 		}],
 	}, {
