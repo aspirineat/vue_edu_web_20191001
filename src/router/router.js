@@ -12,8 +12,10 @@ import step4_store from '@/components/step4/callStore'
 import step5 from '@/components/step5/step5'
 import step5_axios from '@/components/step5/callAxios'
 import step6 from '@/components/step6/step6'
-import step6_install from '@/components/step6/faInstall'
+import step6_faInstall from '@/components/step6/faInstall'
 import step6_fa from '@/components/step6/fontawesome'
+import step6_elInstall from '@/components/step6/elInstall'
+import step6_el from '@/components/step6/elementui'
 import step7 from '@/components/step7/step7'
 import step7_model from '@/components/step7/model/modelStore'
 import step7_chg from '@/components/step7/chg/chgObject'
@@ -85,14 +87,24 @@ export default new Router({
 			main: step6,
 		},
 		children: [{
-			path: 'install',
+			path: 'faInstall',
 			components: {
-				example: step6_install,
+				example: step6_faInstall,
 			},
 		}, {
 			path: 'fa',
 			components: {
 				example: step6_fa,
+			},
+		}, {
+			path: 'elInstall',
+			components: {
+				example: step6_elInstall,
+			},
+		}, {
+			path: 'el',
+			components: {
+				example: step6_el,
 			},
 		}],
 	}, {

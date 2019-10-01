@@ -32,16 +32,25 @@
 			<router-link to="/step5/axios">Axios 사용하기</router-link>
 		</li>
     </ul>
-	<h3>Step6: Font awesome</h3>
+	<h3>Step6: Use Library</h3>
     <ul>
 		<li>
-			<a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">Font awesome start!</a>
+			<a href="https://github.com/FortAwesome/vue-fontawesome" target="_blank" rel="noopener">Font awesome start!</a>
 		</li>
 		<li>
-			<router-link to="/step6/install">Font awesome 설치</router-link>
+			<router-link to="/step6/faInstall">Font awesome 설치</router-link>
 		</li>
 		<li>
 			<router-link to="/step6/fa">Font awesome 사용하기</router-link>
+		</li>
+		<li>
+			<a href="https://github.com/ElemeFE/element" target="_blank" rel="noopener">Element UI start!</a>
+		</li>
+		<li>
+			<router-link to="/step6/elInstall">Element UI 설치</router-link>
+		</li>
+		<li>
+			<router-link to="/step6/el">Element UI 사용하기</router-link>
 		</li>
     </ul>
 	<h3>Step7: Issue</h3>

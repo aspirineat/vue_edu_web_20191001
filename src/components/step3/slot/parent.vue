@@ -7,7 +7,9 @@
 		</template>
 		<template v-slot:footer="childData">
 		<!-- <template v-slot:footer> -->
-			<div><button v-on:click="childData.childF">child function 호출</button></div>
+			<div>
+				<button v-on:click="childData.childF">child function 호출</button>
+			</div>
 		</template>
 	</child-component>
 </div>
